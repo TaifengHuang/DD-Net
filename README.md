@@ -1,4 +1,4 @@
-# A Simple and Effective Data Decoupling Strategy for Semi-supervised Learning in Medical Image Segmentation
+# Dual-decoder data decoupling training for semi-supervised medical image segmentation
 
 **Authors:**
 Bing Wang,Taifeng Huang,Ying Yang,Junhai Zhai,Xin Zhang
