@@ -1,7 +1,7 @@
 # Dual-decoder data decoupling training for semi-supervised medical image segmentation
 
 **Authors:**
-Bing Wang,Taifeng Huang,Ying Yang,Junhai Zhai,Xin Zhang
+Bing Wang,Taifeng Huang,Shuo Yang,Ying Yang,Junhai Zhai,Xin Zhang
 # Usage
 We provide code, models, data_split and training weights for BrainMRI, COVID-19, LUNA16 and [ACDC](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) datasets.
 
