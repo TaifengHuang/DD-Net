@@ -199,8 +199,9 @@ def train(args, snapshot_path):
 
             loss_deep_sup = (loss_deep_sup2_1+loss_deep_sup2_2+loss_deep_sup2_3+loss_deep_sup2_4)/4   # 转置卷积
 
-            pseudo_high_output1 = torch.argmax(high_output1_soft[labeled_bs:], dim=1)
-            pseudo_high_output2 = torch.argmax(high_output2_soft[labeled_bs:], dim=1)
+            threshold = 0.5
+            pseudo_high_output1 = (high_output1_soft[labeled_bs:] > threshold).float()
+            pseudo_high_output2 = (high_output2_soft[labeled_bs:] > threshold).float()
 
             pseudo_supervision = 0
 
